@@ -1,0 +1,198 @@
+[
+    {
+        "senders": 2,
+        "link_capacity": 50,
+        "switch_buffer": 1.0,
+        "cc_combination": [
+            "CUBIC",
+            "BBR"
+        ],
+        "link_latency": 7.5,
+        "source_latency_range": [
+            7.5,
+            7.5
+        ],
+        "qdisc": "Drop-tail",
+        "trace_file": "results/model_validation_10Mbps_40ms/fluid_model/traces/2024-05-09--22-47-45-656060.json",
+        "bbr_throughputs": [
+            37.27993882944048
+        ],
+        "cubic_throughputs": [
+            5.107758934817158
+        ],
+        "reno_throughputs": [],
+        "avg_queue": 19.574018406440985,
+        "avg_jitter": 0.04994575036460645,
+        "jain_fairness_index": 0.6344863489457572,
+        "loss": 0.026820254698028265,
+        "utilization": 1.0
+    },
+    {
+        "senders": 2,
+        "link_capacity": 50,
+        "switch_buffer": 2.0,
+        "cc_combination": [
+            "CUBIC",
+            "BBR"
+        ],
+        "link_latency": 7.5,
+        "source_latency_range": [
+            7.5,
+            7.5
+        ],
+        "qdisc": "Drop-tail",
+        "trace_file": "results/model_validation_10Mbps_40ms/fluid_model/traces/2024-05-09--22-47-56-239354.json",
+        "bbr_throughputs": [
+            37.84770431425416
+        ],
+        "cubic_throughputs": [
+            4.375663806099319
+        ],
+        "reno_throughputs": [],
+        "avg_queue": 48.28689943152825,
+        "avg_jitter": 0.051528941842065974,
+        "jain_fairness_index": 0.6140874776774746,
+        "loss": 0.023293354849751074,
+        "utilization": 1.0
+    },
+    {
+        "senders": 2,
+        "link_capacity": 50,
+        "switch_buffer": 4.0,
+        "cc_combination": [
+            "CUBIC",
+            "BBR"
+        ],
+        "link_latency": 7.5,
+        "source_latency_range": [
+            7.5,
+            7.5
+        ],
+        "qdisc": "Drop-tail",
+        "trace_file": "results/model_validation_10Mbps_40ms/fluid_model/traces/2024-05-09--22-48-07-311757.json",
+        "bbr_throughputs": [
+            32.089628871123345
+        ],
+        "cubic_throughputs": [
+            9.185665908293302
+        ],
+        "reno_throughputs": [],
+        "avg_queue": 106.8650316138478,
+        "avg_jitter": 0.04506320210200528,
+        "jain_fairness_index": 0.7645715132513488,
+        "loss": 0.0007724839462216413,
+        "utilization": 1.0
+    },
+    {
+        "senders": 2,
+        "link_capacity": 50,
+        "switch_buffer": 8.0,
+        "cc_combination": [
+            "CUBIC",
+            "BBR"
+        ],
+        "link_latency": 7.5,
+        "source_latency_range": [
+            7.5,
+            7.5
+        ],
+        "qdisc": "Drop-tail",
+        "trace_file": "results/model_validation_10Mbps_40ms/fluid_model/traces/2024-05-09--22-48-18-344212.json",
+        "bbr_throughputs": [
+            25.82268415074486
+        ],
+        "cubic_throughputs": [
+            15.534400601889399
+        ],
+        "reno_throughputs": [],
+        "avg_queue": 127.31605028468435,
+        "avg_jitter": 0.03666414682398958,
+        "jain_fairness_index": 0.9417214829547238,
+        "loss": 2.442678866370784e-25,
+        "utilization": 1.0
+    },
+    {
+        "senders": 2,
+        "link_capacity": 50,
+        "switch_buffer": 16.0,
+        "cc_combination": [
+            "CUBIC",
+            "BBR"
+        ],
+        "link_latency": 7.5,
+        "source_latency_range": [
+            7.5,
+            7.5
+        ],
+        "qdisc": "Drop-tail",
+        "trace_file": "results/model_validation_10Mbps_40ms/fluid_model/traces/2024-05-09--22-48-29-796214.json",
+        "bbr_throughputs": [
+            25.82268415074486
+        ],
+        "cubic_throughputs": [
+            15.534400601889399
+        ],
+        "reno_throughputs": [],
+        "avg_queue": 127.31605028468435,
+        "avg_jitter": 0.03666414682398958,
+        "jain_fairness_index": 0.9417214829547238,
+        "loss": 1.9269338616894916e-55,
+        "utilization": 1.0
+    },
+    {
+        "senders": 2,
+        "link_capacity": 50,
+        "switch_buffer": 32.0,
+        "cc_combination": [
+            "CUBIC",
+            "BBR"
+        ],
+        "link_latency": 7.5,
+        "source_latency_range": [
+            7.5,
+            7.5
+        ],
+        "qdisc": "Drop-tail",
+        "trace_file": "results/model_validation_10Mbps_40ms/fluid_model/traces/2024-05-09--22-48-41-390909.json",
+        "bbr_throughputs": [
+            25.82268415074486
+        ],
+        "cubic_throughputs": [
+            15.534400601889399
+        ],
+        "reno_throughputs": [],
+        "avg_queue": 127.31605028468435,
+        "avg_jitter": 0.03666414682398958,
+        "jain_fairness_index": 0.9417214829547238,
+        "loss": 1.5200827904333923e-85,
+        "utilization": 1.0
+    },
+    {
+        "senders": 2,
+        "link_capacity": 50,
+        "switch_buffer": 64.0,
+        "cc_combination": [
+            "CUBIC",
+            "BBR"
+        ],
+        "link_latency": 7.5,
+        "source_latency_range": [
+            7.5,
+            7.5
+        ],
+        "qdisc": "Drop-tail",
+        "trace_file": "results/model_validation_10Mbps_40ms/fluid_model/traces/2024-05-09--22-48-52-356288.json",
+        "bbr_throughputs": [
+            25.82268415074486
+        ],
+        "cubic_throughputs": [
+            15.534400601889399
+        ],
+        "reno_throughputs": [],
+        "avg_queue": 127.31605028468435,
+        "avg_jitter": 0.03666414682398958,
+        "jain_fairness_index": 0.9417214829547238,
+        "loss": 1.1991338860721675e-115,
+        "utilization": 1.0
+    }
+]

@@ -1,0 +1,212 @@
+[
+    {
+        "senders": 3,
+        "link_capacity": 10,
+        "switch_buffer": 1.0,
+        "cc_combination": [
+            "RENO",
+            "BBR",
+            "BBR"
+        ],
+        "link_latency": 10,
+        "source_latency_range": [
+            10,
+            10
+        ],
+        "qdisc": "Drop-tail",
+        "trace_file": "results/model_validation_10Mbps_40ms/fluid_model/traces/2024-05-09--20-52-58-656564.json",
+        "bbr_throughputs": [
+            3.154285805769409,
+            5.61053223601835
+        ],
+        "cubic_throughputs": [],
+        "reno_throughputs": [
+            0.9272255828317642
+        ],
+        "avg_queue": 8.998022245222211,
+        "avg_jitter": 0.0003008452731620429,
+        "jain_fairness_index": 0.7404557615114905,
+        "loss": 0.14810442112505967,
+        "utilization": 1.0
+    },
+    {
+        "senders": 3,
+        "link_capacity": 10,
+        "switch_buffer": 2.0,
+        "cc_combination": [
+            "RENO",
+            "BBR",
+            "BBR"
+        ],
+        "link_latency": 10,
+        "source_latency_range": [
+            10,
+            10
+        ],
+        "qdisc": "Drop-tail",
+        "trace_file": "results/model_validation_10Mbps_40ms/fluid_model/traces/2024-05-09--20-53-16-037960.json",
+        "bbr_throughputs": [
+            3.289239934413038,
+            5.649033392916775
+        ],
+        "cubic_throughputs": [],
+        "reno_throughputs": [
+            0.7622970748981683
+        ],
+        "avg_queue": 17.99880701199338,
+        "avg_jitter": 0.00018858866418156056,
+        "jain_fairness_index": 0.7242146608055813,
+        "loss": 0.14882405160146672,
+        "utilization": 1.0
+    },
+    {
+        "senders": 3,
+        "link_capacity": 10,
+        "switch_buffer": 4.0,
+        "cc_combination": [
+            "RENO",
+            "BBR",
+            "BBR"
+        ],
+        "link_latency": 10,
+        "source_latency_range": [
+            10,
+            10
+        ],
+        "qdisc": "Drop-tail",
+        "trace_file": "results/model_validation_10Mbps_40ms/fluid_model/traces/2024-05-09--20-53-33-788234.json",
+        "bbr_throughputs": [
+            3.7422866276035274,
+            4.196334622752791
+        ],
+        "cubic_throughputs": [],
+        "reno_throughputs": [
+            0.8506639239157932
+        ],
+        "avg_queue": 35.74843737653642,
+        "avg_jitter": 0.013436033848586219,
+        "jain_fairness_index": 0.7963034080661183,
+        "loss": 0.06190541886778758,
+        "utilization": 1.0
+    },
+    {
+        "senders": 3,
+        "link_capacity": 10,
+        "switch_buffer": 8.0,
+        "cc_combination": [
+            "RENO",
+            "BBR",
+            "BBR"
+        ],
+        "link_latency": 10,
+        "source_latency_range": [
+            10,
+            10
+        ],
+        "qdisc": "Drop-tail",
+        "trace_file": "results/model_validation_10Mbps_40ms/fluid_model/traces/2024-05-09--20-53-52-094201.json",
+        "bbr_throughputs": [
+            0.5597035117343541,
+            0.5939320572304325
+        ],
+        "cubic_throughputs": [],
+        "reno_throughputs": [
+            7.0563864255765525
+        ],
+        "avg_queue": 57.4101680837687,
+        "avg_jitter": 0.022972325228986998,
+        "jain_fairness_index": 0.44527886353105106,
+        "loss": 0.0006436739431804867,
+        "utilization": 1.0
+    },
+    {
+        "senders": 3,
+        "link_capacity": 10,
+        "switch_buffer": 16.0,
+        "cc_combination": [
+            "RENO",
+            "BBR",
+            "BBR"
+        ],
+        "link_latency": 10,
+        "source_latency_range": [
+            10,
+            10
+        ],
+        "qdisc": "Drop-tail",
+        "trace_file": "results/model_validation_10Mbps_40ms/fluid_model/traces/2024-05-09--20-54-10-289789.json",
+        "bbr_throughputs": [
+            0.558668395746457,
+            0.5934166719368364
+        ],
+        "cubic_throughputs": [],
+        "reno_throughputs": [
+            7.164866181722569
+        ],
+        "avg_queue": 60.282518143210964,
+        "avg_jitter": 0.011511977947383683,
+        "jain_fairness_index": 0.4434119352072034,
+        "loss": 5.680463824558174e-32,
+        "utilization": 1.0
+    },
+    {
+        "senders": 3,
+        "link_capacity": 10,
+        "switch_buffer": 32.0,
+        "cc_combination": [
+            "RENO",
+            "BBR",
+            "BBR"
+        ],
+        "link_latency": 10,
+        "source_latency_range": [
+            10,
+            10
+        ],
+        "qdisc": "Drop-tail",
+        "trace_file": "results/model_validation_10Mbps_40ms/fluid_model/traces/2024-05-09--20-54-27-999609.json",
+        "bbr_throughputs": [
+            0.558668395746457,
+            0.5934166719368364
+        ],
+        "cubic_throughputs": [],
+        "reno_throughputs": [
+            7.164866181722569
+        ],
+        "avg_queue": 60.282518143210964,
+        "avg_jitter": 0.011511977947383683,
+        "jain_fairness_index": 0.4434119352072034,
+        "loss": 4.481095834716172e-62,
+        "utilization": 1.0
+    },
+    {
+        "senders": 3,
+        "link_capacity": 10,
+        "switch_buffer": 64.0,
+        "cc_combination": [
+            "RENO",
+            "BBR",
+            "BBR"
+        ],
+        "link_latency": 10,
+        "source_latency_range": [
+            10,
+            10
+        ],
+        "qdisc": "Drop-tail",
+        "trace_file": "results/model_validation_10Mbps_40ms/fluid_model/traces/2024-05-09--20-54-46-035212.json",
+        "bbr_throughputs": [
+            0.558668395746457,
+            0.5934166719368364
+        ],
+        "cubic_throughputs": [],
+        "reno_throughputs": [
+            7.164866181722569
+        ],
+        "avg_queue": 60.282518143210964,
+        "avg_jitter": 0.011511977947383683,
+        "jain_fairness_index": 0.4434119352072034,
+        "loss": 3.534961316556305e-92,
+        "utilization": 1.0
+    }
+]

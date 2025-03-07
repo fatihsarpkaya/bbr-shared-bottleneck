@@ -1,0 +1,212 @@
+[
+    {
+        "senders": 3,
+        "link_capacity": 50,
+        "switch_buffer": 1.0,
+        "cc_combination": [
+            "CUBIC",
+            "BBR",
+            "BBR"
+        ],
+        "link_latency": 7.5,
+        "source_latency_range": [
+            7.5,
+            7.5
+        ],
+        "qdisc": "Drop-tail",
+        "trace_file": "results/model_validation_10Mbps_40ms/fluid_model/traces/2024-05-09--23-03-08-943514.json",
+        "bbr_throughputs": [
+            17.190837175873725,
+            29.24928040154241
+        ],
+        "cubic_throughputs": [
+            2.0873739953895774
+        ],
+        "reno_throughputs": [],
+        "avg_queue": 30.989964421052264,
+        "avg_jitter": 0.000326981638841387,
+        "jain_fairness_index": 0.67939314293565,
+        "loss": 0.14942669517237647,
+        "utilization": 1.0
+    },
+    {
+        "senders": 3,
+        "link_capacity": 50,
+        "switch_buffer": 2.0,
+        "cc_combination": [
+            "CUBIC",
+            "BBR",
+            "BBR"
+        ],
+        "link_latency": 7.5,
+        "source_latency_range": [
+            7.5,
+            7.5
+        ],
+        "qdisc": "Drop-tail",
+        "trace_file": "results/model_validation_10Mbps_40ms/fluid_model/traces/2024-05-09--23-03-26-793444.json",
+        "bbr_throughputs": [
+            17.425618246615528,
+            29.379155191435515
+        ],
+        "cubic_throughputs": [
+            1.7557778826704682
+        ],
+        "reno_throughputs": [],
+        "avg_queue": 61.989866167903806,
+        "avg_jitter": 0.0003275219035800109,
+        "jain_fairness_index": 0.6719059312769157,
+        "loss": 0.15002005019315465,
+        "utilization": 1.0
+    },
+    {
+        "senders": 3,
+        "link_capacity": 50,
+        "switch_buffer": 4.0,
+        "cc_combination": [
+            "CUBIC",
+            "BBR",
+            "BBR"
+        ],
+        "link_latency": 7.5,
+        "source_latency_range": [
+            7.5,
+            7.5
+        ],
+        "qdisc": "Drop-tail",
+        "trace_file": "results/model_validation_10Mbps_40ms/fluid_model/traces/2024-05-09--23-03-44-407663.json",
+        "bbr_throughputs": [
+            21.652040548645207,
+            22.67804405014673
+        ],
+        "cubic_throughputs": [
+            1.3538806721235466
+        ],
+        "reno_throughputs": [],
+        "avg_queue": 123.98783875120263,
+        "avg_jitter": 0.0003878929756542238,
+        "jain_fairness_index": 0.7063137201676708,
+        "loss": 0.09652775789739652,
+        "utilization": 1.0
+    },
+    {
+        "senders": 3,
+        "link_capacity": 50,
+        "switch_buffer": 8.0,
+        "cc_combination": [
+            "CUBIC",
+            "BBR",
+            "BBR"
+        ],
+        "link_latency": 7.5,
+        "source_latency_range": [
+            7.5,
+            7.5
+        ],
+        "qdisc": "Drop-tail",
+        "trace_file": "results/model_validation_10Mbps_40ms/fluid_model/traces/2024-05-09--23-04-02-063593.json",
+        "bbr_throughputs": [
+            14.364172037706215,
+            13.968065755556978
+        ],
+        "cubic_throughputs": [
+            12.978152617570936
+        ],
+        "reno_throughputs": [],
+        "avg_queue": 146.80696421391468,
+        "avg_jitter": 0.03206972355116464,
+        "jain_fairness_index": 0.9982113553520129,
+        "loss": 5.2736023828687477e-23,
+        "utilization": 1.0
+    },
+    {
+        "senders": 3,
+        "link_capacity": 50,
+        "switch_buffer": 16.0,
+        "cc_combination": [
+            "CUBIC",
+            "BBR",
+            "BBR"
+        ],
+        "link_latency": 7.5,
+        "source_latency_range": [
+            7.5,
+            7.5
+        ],
+        "qdisc": "Drop-tail",
+        "trace_file": "results/model_validation_10Mbps_40ms/fluid_model/traces/2024-05-09--23-04-19-833128.json",
+        "bbr_throughputs": [
+            14.364172037706215,
+            13.968065755556978
+        ],
+        "cubic_throughputs": [
+            12.978152617570936
+        ],
+        "reno_throughputs": [],
+        "avg_queue": 146.80696421391468,
+        "avg_jitter": 0.03206972355116464,
+        "jain_fairness_index": 0.9982113553520129,
+        "loss": 4.160138749525525e-53,
+        "utilization": 1.0
+    },
+    {
+        "senders": 3,
+        "link_capacity": 50,
+        "switch_buffer": 32.0,
+        "cc_combination": [
+            "CUBIC",
+            "BBR",
+            "BBR"
+        ],
+        "link_latency": 7.5,
+        "source_latency_range": [
+            7.5,
+            7.5
+        ],
+        "qdisc": "Drop-tail",
+        "trace_file": "results/model_validation_10Mbps_40ms/fluid_model/traces/2024-05-09--23-04-37-543869.json",
+        "bbr_throughputs": [
+            14.364172037706215,
+            13.968065755556978
+        ],
+        "cubic_throughputs": [
+            12.978152617570936
+        ],
+        "reno_throughputs": [],
+        "avg_queue": 146.80696421391468,
+        "avg_jitter": 0.03206972355116464,
+        "jain_fairness_index": 0.9982113553520129,
+        "loss": 3.281770819795714e-83,
+        "utilization": 1.0
+    },
+    {
+        "senders": 3,
+        "link_capacity": 50,
+        "switch_buffer": 64.0,
+        "cc_combination": [
+            "CUBIC",
+            "BBR",
+            "BBR"
+        ],
+        "link_latency": 7.5,
+        "source_latency_range": [
+            7.5,
+            7.5
+        ],
+        "qdisc": "Drop-tail",
+        "trace_file": "results/model_validation_10Mbps_40ms/fluid_model/traces/2024-05-09--23-04-55-421156.json",
+        "bbr_throughputs": [
+            14.364172037706215,
+            13.968065755556978
+        ],
+        "cubic_throughputs": [
+            12.978152617570936
+        ],
+        "reno_throughputs": [],
+        "avg_queue": 146.80696421391468,
+        "avg_jitter": 0.03206972355116464,
+        "jain_fairness_index": 0.9982113553520129,
+        "loss": 2.588860699631949e-113,
+        "utilization": 1.0
+    }
+]
