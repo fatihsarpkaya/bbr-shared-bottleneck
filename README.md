@@ -28,4 +28,4 @@ To run this experiment on [FABRIC](https://fabric-testbed.net), you should have 
 
 - You can also run the fluid model easily on your computer. The provided FABRIC notebook is an alternative option.
   
-- In the paper, we mentioned that running the fluid model for long durations consumes excessive RAM, making it infeasible. You can find proof of this in the `excessive_memory_usage.log` file, which shows increasing memory usage over time until all available memory is exhausted.
+- In the paper, we mentioned that running the fluid model for long durations consumes excessive RAM, making it infeasible. You can find proof of this in the `excessive_memory_usage.log` file, which shows increasing memory usage over time until all available memory runs out.
