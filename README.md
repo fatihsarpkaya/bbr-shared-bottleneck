@@ -1,5 +1,3 @@
-This repository contains artifacts for the paper submitted to IFIP 2025.
-
 # TCP BBR Behavior over a Shared Bottleneck
 
 TCP BBR’s behavior has been explained by various theoretical models in particular that describe how it co-exists with other type of flows. However, as new protocol versions emerged, it is not always clear to what extent the high-level behavior described by these models applies to newer protocol versions. In this paper, we systematically evaluate the most influential steady-state and fluid models describing BBR’s coexistence with loss-based flows over shared bottleneck links. Our experiments, conducted on a new experimental platform (FABRIC), extend previous evaluations to additional network scenarios, enabling comparisons between the two models and including the recently introduced BBRv3.
